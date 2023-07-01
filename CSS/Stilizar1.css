@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Orbitron&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --font-primeiros-titulos: Orbitron;
+    --font-primeiros-textos: Exo 2;
+    --cor-de-textos-primeira-parte: #4B9AE2;
+    --cor-background-segunda-parte: #D9D9D9;
+    --font-segunda-parte-titulos: Merriweather;
+    --font-segunda-parte-textos: PT Serif;
+}
+
+.cabeçalho{
+    background-color: #F3F7FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8%;
+
+
+}
+
+.cabeça-JJFALK{
+    width: 350px;
+    height: 200px;
+    margin: 5% 0% 0% 5%;
+    
+}
+
+.cabeçalho-navegação{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin: 0% 0% 0% 0%;
+}
+
+.cabeçalho-navegação-conjunto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cabeçalho-navegação-texto{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Orbitron;
+    color: var(--cor-de-textos-primeira-parte);
+
+}
+
+.cabeçalho-navegação-imagens{
+    width: 40px;
+    height: 40px;
+}
+
+.cabeçalho-separação{
+    width: 4px;
+    height: 60px;
+    background-color: #4B9AE2;
+}
+
+.img{
+    width: 40%;
+    height: 350px;
+}
